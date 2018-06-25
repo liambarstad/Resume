@@ -1,0 +1,162 @@
+body {
+  width: 595px;
+  height: 842px;
+  background:
+    linear-gradient(to bottom right, white, rgba(0,0,0,0) 50%, black),
+    url("main-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  position:absolute;
+  top: -10;
+  width:100%;
+  height:60px;
+  background:#6cf;
+}
+
+footer p {
+  font-size: 12px;
+  color: black;
+}
+
+.title-image {
+  display: inline;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+.left {
+  width: 50%;
+  position: absolute;
+}
+
+.left .section {
+  padding: 0.4em;
+  position: relative;
+  border-radius: 15px 0px 0px 50px;
+}
+
+.right .section {
+  padding: 0.4em;
+  position: relative;
+  border-radius: 0px 15px 50px 0px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.section-entry {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.section-body {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  display: block;
+}
+
+.entry-title {
+  font-size: 22px;
+}
+
+.entry-subtitle {
+  font-size: 17px;
+}
+
+.date-box {
+
+}
+
+.right {
+  width: 50%;
+  right: 0px;
+  position: absolute;
+}
+
+.white {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.light-white {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.black {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.dark-black {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.white-text {
+  color: white;
+}
+
+.skill {
+  background-color: white;
+  border: 2px solid black;
+  position: relative;
+  display: inline;
+  border-radius: 10px;
+  padding: 0.4em;
+  font-size: 20px;
+}
+
+#title-name {
+  width: 100%;
+  position: relative;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 15px 50px 0px;
+}
+
+#title-name p {
+  font-size: 50px;
+  color: white;
+}
+
+#title-info {
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 15px 50px 15px 0px;
+}
+
+#title-info p {
+  display: relative;
+}
+
+#main {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+}
+
+#skills {
+  line-height: 2.3;
+}
+
+#references {
+  line-height: 1.5;
+}
+
+#references dt {
+  font-size: 20px;
+}
+
