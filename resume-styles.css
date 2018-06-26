@@ -3,7 +3,7 @@ body {
   height: 842px;
   background:
     linear-gradient(to bottom right, white, rgba(0,0,0,0) 50%, black),
-    url("main-background.jpg");
+    url("static/main-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -74,8 +74,13 @@ footer p {
   font-size: 17px;
 }
 
-.date-box {
-
+.education-icon {
+  display: inline;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 .right {
@@ -117,8 +122,8 @@ footer p {
 #title-name {
   width: 100%;
   position: relative;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
   text-align: center;
   background-color: rgba(0,0,0,0.8);
   border-radius: 15px 50px 0px;
