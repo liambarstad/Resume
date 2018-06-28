@@ -21,13 +21,30 @@ footer p {
   color: black;
 }
 
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: blue;
+}
+
 .title-image {
   display: inline;
   position: relative;
-  height: 20px;
-  width: 20px;
+  height: 12px;
+  width: 12px;
   padding-right: 0.5em;
   padding-left: 0.5em;
+  vertical-align: middle;
 }
 
 .left {
@@ -36,20 +53,31 @@ footer p {
 }
 
 .left .section {
-  padding: 0.4em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.4em;
   position: relative;
-  border-radius: 15px 0px 0px 50px;
 }
 
 .right .section {
-  padding: 0.4em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  padding-top: 0.1em;
+  padding-bottom: 0.4em;
   position: relative;
-  border-radius: 0px 15px 50px 0px;
 }
 
 .section-title {
   text-align: center;
-  font-size: 25px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .section-entry {
@@ -62,31 +90,38 @@ footer p {
 .section-body {
   padding-right: 10px;
   padding-left: 10px;
-  font-size: 15px;
+  font-size: 12px;
   display: block;
 }
 
 .entry-title {
-  font-size: 22px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .entry-subtitle {
-  font-size: 17px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .education-icon {
   display: inline;
   position: relative;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   padding-right: 0.5em;
   padding-left: 0.5em;
+  vertical-align: middle;
 }
 
 .right {
   width: 50%;
   right: 0px;
   position: absolute;
+}
+
+.right-text {
+  float: right;
 }
 
 .white {
@@ -116,30 +151,24 @@ footer p {
   display: inline;
   border-radius: 10px;
   padding: 0.4em;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #title-name {
-  width: 100%;
+  width: 98.5%;
   position: relative;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   text-align: center;
   background-color: rgba(0,0,0,0.8);
-  border-radius: 15px 50px 0px;
 }
 
 #title-name p {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
 }
 
-#title-info {
-  width: 100%;
-  text-align: center;
-  padding: 0.5em;
-  background-color: rgba(255,255,255,0.8);
-  border-radius: 15px 50px 15px 0px;
+#top-right-section {
 }
 
 #title-info p {
@@ -148,13 +177,11 @@ footer p {
 
 #main {
   width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
   position: absolute;
 }
 
 #skills {
-  line-height: 2.3;
+  line-height: 2.0;
 }
 
 #references {
@@ -164,4 +191,3 @@ footer p {
 #references dt {
   font-size: 20px;
 }
-
