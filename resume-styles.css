@@ -60,6 +60,12 @@ a:active {
   position: relative;
 }
 
+.right {
+  width: 50%;
+  right: 0px;
+  position: absolute;
+}
+
 .right .section {
   padding-right: 0.3em;
   padding-left: 0.3em;
@@ -68,6 +74,9 @@ a:active {
   position: relative;
 }
 
+.right-text {
+  float: right;
+}
 .section-title {
   text-align: center;
   font-size: 17px;
@@ -114,16 +123,6 @@ a:active {
   vertical-align: middle;
 }
 
-.right {
-  width: 50%;
-  right: 0px;
-  position: absolute;
-}
-
-.right-text {
-  float: right;
-}
-
 .white {
   background-color: rgba(255,255,255,0.6);
 }
@@ -166,9 +165,6 @@ a:active {
 #title-name p {
   font-size: 30px;
   color: white;
-}
-
-#top-right-section {
 }
 
 #title-info p {
