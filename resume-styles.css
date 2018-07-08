@@ -8,6 +8,18 @@ body {
   background-position: center;
 }
 
+#logo {
+  opacity: 0.8;
+  height: 100px;
+  width: 320px;
+  position: relative;
+}
+
+#top-right-section {
+  position: relative;
+  margin-top: -0.22em;
+}
+
 footer {
   position:absolute;
   top: -10;
@@ -154,7 +166,7 @@ a:active {
 }
 
 #title-name {
-  width: 98.5%;
+  width: 97.5%;
   position: relative;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
@@ -186,4 +198,9 @@ a:active {
 
 #references dt {
   font-size: 20px;
+}
+
+#projects {
+  position: static;
+  top: 500px;
 }

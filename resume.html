@@ -6,6 +6,7 @@
 
   <body>
     <section id='main'>
+
       <div class='left'>
         <div id='title-name' class='section dark-black'>
           <p>Liam Barstad</p>
@@ -13,8 +14,15 @@
 
         <div class='section light-white'>
           <h1 class='section-title'>Mission</h1>
+          <!--
           <p class='section-body'>
             As a programmer, I am committed to developing technology for all people, regardless of social, political, ethnic, or economic backgrounds. It is my endeavor to facilitate creativity and cultivate input from as many viewpoints as possible, so that what I create will be able to effectively represent and better humanity. With dedication and tenacity, all problems can be overcome. 
+          </p>
+          -->
+          <p class='section-body'>
+            Programming, to me, is the canvass on which to illustrate.  
+            I am passionate about coding, and would like to paint upon that canvass with optimal algorithms, mathematical analysis, and artistry.
+            I will tenaciously persue any problem in front of me until a solution is found, and I am always excited to learn from and teach my peers. 
           </p>
         </div>
 
@@ -78,7 +86,10 @@
       </div>
 
       <div class='right'>
+        <img src="static/logo.jpg" id="logo"/>
+
         <div id='top-right-section' class='section light-white'>
+          <!--
           <p>
             <img class='title-image' src='static/email-icon.svg'>
             <span class='section-subtitle'><strong>Email:</strong> liambarstad@gmail.com</span>
@@ -93,7 +104,7 @@
             <img class='title-image' src='static/skype-icon.png'>
             <span class='section-subtitle'><strong>Skype:</strong> liam.barstad</span>
           </p>
-
+          -->
           <p>
             <img class='title-image' src='static/github-icon.png'>
             <span class='section-subtitle'><strong>Github:</strong> github.com/liambarstad</span>
@@ -106,7 +117,7 @@
         </div>
 
         <div class='section dark-black'>
-          <h1 class='section-title white-text'>Projects</h1>
+          <h1 id='projects' class='section-title white-text'>Projects</h1>
           <div class='section-entry white-text'>
             <span class='entry-title'>Ping Timer</span>
             <a href='https://github.com/liambarstad/PingTimer'>
@@ -150,42 +161,31 @@
             </p>
           </div>
 
-
-          <div class='section-entry'>
-            <span class='entry-title white-text'>Quantified Self</span>
-            <a href='https://github.com/liambarstad/quantified-self'>
-              <img class='title-image' src='static/github-icon-white.png'>
-            </a>
-            <a href='https://github.com/liambarstad/quantified-self-backend'>
-              <img class='title-image' src='static/github-icon-white.png'>
-            </a>
-            <p class='section-body white-text'>
-              A food manager app built using a jQuery/Webpack front end that consumes a JavaScript Express back end. Users can add foods to meal tables and create, update, and delete foods at the /foods path.
-            </p>
-          </div>
-
           <div class='section-entry'>
             <span class='entry-title white-text'>Titanic Predictor</span>
             <a href='https://github.com/liambarstad/TitanicPredictor'>
               <img class='title-image' src='static/github-icon-white.png'>
             </a>
             <p class='section-body white-text'>
-              A functional neural net built in Django using Neo4j that is being developed into an accessible web application. The purpose of the application is to predict whether or not a user would survive the titanic, given specific inputs.
+              A functional neural net built in Python, using the Django framework and Neo4j. It is currently being developed into an accessible web application. The purpose of the application is to predict whether or not a user would survive the titanic, given specific inputs.
             </p>
           <!-- <p class='section-body'>
             An app built in Django using ReactJS for the templates, made to predict whether or not a user would survive the titanic. Behind the scenes is a linear classifier learning algorithm using pandas dataframes and numpy.
           </p> -->
           </div>
 
-          <!-- <div class='section-entry'>
-            <span class='entry-title white-text'>Data Fiend V1</span>
+          <div class='section-entry'>
+            <span class='entry-title white-text'>Data Fiend V2</span>
             <a href='https://github.com/liambarstad/data_fiend_v2' style='white-text'>
               <img class='title-image overlaid' src='static/github-icon-white.png'>
             </a>
             <p class='section-body white-text'>
-              A "pentangular arbitrage" executable in Python that trades cryptocurrency. It uses time series analysis and a neural network built around the "rainbow" algorithm. The full description of the algorithm used can be found here: <a href='https://arxiv.org/pdf/1710.02298.pdf'>https://arxiv.org/pdf/1710.02298.pdf</a>
+              A Python executable designed to chronolog changes in the stock market and used to test new strategies on prices gathered from the NSE.
             </p>
-          </div> -->
+            <!--<p class='section-body white-text'>
+              A "pentangular arbitrage" executable in Python that trades cryptocurrency. It uses time series analysis and a neural network built around the "rainbow" algorithm. The full description of the algorithm used can be found here: <a href='https://arxiv.org/pdf/1710.02298.pdf'>https://arxiv.org/pdf/1710.02298.pdf</a>
+            </p> -->
+          </div>
 
         <div class='section-entry'>
           <span class='entry-title white-text'>This Resume</span>
@@ -193,7 +193,7 @@
             <img class='title-image' src='static/github-icon-white.png'>
           </a>
           <p class='section-body white-text'>
-            A copy of this resume in HTML/CSS, .pdf, and .doc.
+            A copy of this resume in HTML/CSS and .pdf
           </p>
         </div>
         <!-- <div class='section light-white'>
