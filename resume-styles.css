@@ -18,6 +18,7 @@ body {
 #top-right-section {
   position: relative;
   margin-top: -0.22em;
+  line-height: 0.6;
 }
 
 footer {
@@ -105,7 +106,7 @@ a:active {
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .section-body {
@@ -140,7 +141,7 @@ a:active {
 }
 
 .light-white {
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.9);
 }
 
 .black {
@@ -148,7 +149,7 @@ a:active {
 }
 
 .dark-black {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(77,100,141,0.9);
 }
 
 .white-text {
@@ -162,7 +163,8 @@ a:active {
   display: inline;
   border-radius: 10px;
   padding: 0.4em;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 #title-name {
@@ -171,7 +173,7 @@ a:active {
   padding-top: 0.1em;
   padding-bottom: 0.1em;
   text-align: center;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(77,100,141,0.8);
 }
 
 #title-name p {
