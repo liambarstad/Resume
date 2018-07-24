@@ -1,9 +1,7 @@
 body {
   width: 595px;
   height: 842px;
-  background:
-    linear-gradient(to bottom right, white, rgba(0,0,0,0) 50%, black),
-    url("static/main-background.jpg");
+  background: url("static/main-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -18,7 +16,11 @@ body {
 #top-right-section {
   position: relative;
   margin-top: -0.22em;
-  line-height: 0.6;
+  line-height: 1.4;
+}
+
+.contact-info {
+  display: block;
 }
 
 footer {
@@ -36,6 +38,7 @@ footer p {
 
 a:link {
   color: inherit;
+  text-decoration: none;
 }
 
 a:visited {
@@ -48,6 +51,14 @@ a:hover {
 
 a:active {
   color: blue;
+}
+
+a.no-link:hover {
+  color: inherit;
+}
+
+a.no-link:active {
+  color: inherit;
 }
 
 .title-image {
@@ -165,6 +176,14 @@ a:active {
   padding: 0.4em;
   font-size: 13px;
   font-weight: bold;
+}
+
+.inline-skill {
+  color: black;
+  background-color: white;
+  border-radius: 0.2em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
 }
 
 #title-name {
